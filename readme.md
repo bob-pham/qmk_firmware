@@ -1,3 +1,15 @@
+# Custom QMK Bindings For Corne
+
+Default:
+```qmk compile -kb crkbd -km default -e CONVERT_TO=promicro_rp2040```
+
+Custom:
+```qmk compile -kb crkbd -km bob_layout -e CONVERT_TO=promicro_rp2040```
+
+If qmk command not found:
+```echo 'PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc && source $HOME/.bashrc```
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)

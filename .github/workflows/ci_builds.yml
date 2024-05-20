@@ -17,7 +17,7 @@ concurrency: ci_build-${{ github.event.inputs.branch || github.ref_name }}
 
 jobs:
   ci_builds:
-    if: github.repository == 'qmk/qmk_firmware'
+    if: github.repository == 'bob-pham/qmk_firmware'
     name: "CI Build"
     runs-on: self-hosted
     timeout-minutes: 1380

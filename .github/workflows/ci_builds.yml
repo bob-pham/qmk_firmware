@@ -25,7 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        keymap: [default, via]
+        keymap: [default]
 
     container: ghcr.io/qmk/qmk_cli
 
